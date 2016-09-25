@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_32fa980946ea8c9eba5443f99c4183e6eafa4b5d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.4.0_433437f01a53762b68f6433538095a74edd7130a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.4.0_d7a456b985fd15555ac05bccfe6f4d364d271546/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_49a2f4e4fcdd0eb8bf6594a42bd91d90514b727a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_e96000eea08b9f3b502b9bf2c78e8fb2eafc7639/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_35226d00322c5da95feba053fd82a2b1eadf4ac4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_c2088a5897d68a09ccf806866bd438ceb68bb5e5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_f9b3893a2322751555b56a84613295252b637585/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_481e351cfcb78bdfba08554180f8098934746cea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.4.0_bc9500162bad7d2b5d848191c4fb283e7af8d01b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_b4dc89a36c73ecabb91719505b43ca4949e4d3bf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.4.0_50ee0eda18ecea3431095d8cf68df10e56a203c4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_ac465d2c455823c39b29d32e337cf5775ef04dac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_1affb7675e62c3f54dad43b9ad0c0cf9eb9b7e76/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_01bf708901f9f8c360ab2ef59ba816570dd90303/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_7e700be95ee745be21b79096032b9fbe45354cbd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.4.0_b049e6d663672b83f3045766cd06b0b58047016a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_82e4210f14f0ea783e4f90e7d764d0a88025c874/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_67339802e6d5d4154635aa6fbe82b80733355631/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_17ab19e697554a8fd7f8c5ddbd31a7ce6dbb9ec7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_ac783a600f5f94fb300840b068cc7df8f12a1063/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.4.0_724ec8fd8d882633d6fb647252d44b3036fadb64/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_3697f50ec091c04a565dcd2a368b45f58a2ac6be/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.4.0_0ac5b4ec5e411948eac9a6fbb16c1ca7f3fe94e6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_6e461ec536d8f3d8aae5a9f94960a6453409bf46/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_4c32894a7fe646e9cea7042978d22ea5a30641b8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_b082b830d171f444291d4a7fa54ab948c984ad17/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.4.0_30157238667de64e5c3c7f7cb600e7a9b64d0782/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_fe6c477e45540f3de06597a85bcd7784f95dfa94/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_10002a5e31417387ef53a4d52874519405d0e2f7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="bf30ca73db0fcaaa4b93cc3c3f3114e30b61ee02">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6cd2838aa0bc77b766526777a2b6206267d5e203/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_7591571636a8084d577557543cc6a33d3c38dadd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_eb8803c195ec259d9a8a302af394f000ddc3e18c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.4.0_15161845c3d4b13206bce5d6588d4c580b58f339/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-contextmanager-9.4.0_af6e8118b02e674810ad24b6d3ffe060b08f1ab1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_05f0647bb16b144f3ad2c1f29e9783bec955c113/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.4.0_6b18918768022c4f257ed43ee345833f0878f695/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.4.0_ae901fb1f9a446103c41a0a2d228d56f1ae1382e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.4.0_e724aa88ecceff3b5be72b4a494a4e573aaa4d63/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_937a941d952924e95bd53b433f0cdd7d47224246/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.4.0_3f2521d86a214e4798c67e5060ee886544fb20c1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_0584cc955c5daed19b66de38f97fc1ce8b41131f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_910af7154b1efcb7093c1f30b80b53f58f04b10f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_0907613a7a8c8ef65e27ba53dc937533b349e3fb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.4.0_a07149dba9263b9964597db8b0a9bb849bd772d8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_484eec448b06287a4502a5ef568ae8a45155b0f2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_b5bfecf04e3fbb2d63e7c5bef83065046ac82c06/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.4.0_daef3e9b552e7cffae7d51dbef6564bde52ef1ac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.4.0_30ff615657ff67bfd2b9532de7e66f8cc618afdc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_b6eb9cbf5f1e9c699291c535ba64055d6917b0cf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.4.0_4fff459b234980ecf4d96d95f2832082b7dc5397/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_5691f4098c06013fffaa7e28129778f2e371aa0e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.4.0_e4176d1eb4bd42119440a52001aa8175f8fa2873/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.4.0_a818377489e32ad317ec4a4eb7ab87a6a7258f3e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="67dca9fd54b708c839f6438a32b590f5c718c32b">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_54a080ffa45a07c8fbcce49f59adef49fe82490e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_c7d37f6257b205e5274499424fc9f39872807073/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_615d31c178b785d318e9dea10c4262e318848479/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.4.0_25b765d226e894a533bc3ca8ea3e51303bfd11c8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.4.0_8c8c534df2c1e3c131b0729c0028f4ae5946640a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_1dec74b0b80999e9244bc791b90948a0d220202f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_9ee9fd913048407f75e86e4abc8610fcd4b58085/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.4.0_659bf170cce0d6f21de99bb853cb87910b843ded/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_48292db4581b1dfef04b4cdb171c6b5702a50797/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.4.0_81e1e0461ddcd7f5e5f66aa0a01d172aebf734ab/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_35adbc2d3f9b2bac58b9f02d89837a5f2388eace/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_4683d8d9520c3777af4125623bef421536a722a1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_155368a072ebd7f90c6fec323f983f9359f3fb14/classes.dex" />
+    </item>
+
+</items>
