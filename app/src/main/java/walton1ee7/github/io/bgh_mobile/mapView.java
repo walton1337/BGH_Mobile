@@ -66,6 +66,7 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
 
         // Add a marker in Sydney and move the camera
         mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(42.4075, -71.119)));
+        mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://biggamehunter.herokuapp.com")
                 .addConverterFactory(GsonConverterFactory.create())
