@@ -2,6 +2,7 @@ package walton1ee7.github.io.bgh_mobile;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -9,6 +10,25 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+
+import org.joda.time.Instant;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
+
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class mapView extends FragmentActivity implements OnMapReadyCallback {
 
@@ -42,9 +62,40 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
         // Add marker for each lat/long in JSON!!!
 
 
+
+
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(42.4075, -71.119)));
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://biggamehunter.herokuapp.com")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+
+        BGHService bghService = retrofit.create(BGHService.class);
+        Call<List<Game>> call = bghService.getGames();
+        call.enqueue(new Callback<List<Game>>() {
+            @Override
+            public void onResponse(Call<List<Game>> call, Response<List<Game>> response) {
+                if (response.isSuccessful()) {
+                    // tasks available
+                    DateTimeFormatter fmt = DateTimeFormat.shortDateTime();
+                    for (Game game: response.body()) {
+                        MarkerOptions opts = new MarkerOptions();
+                        opts.position(new LatLng(game.getLatitude(), game.getLongitude()));
+                        opts.title(game.getName());
+                        opts.snippet("Start: " + new Instant(game.getStartTime()).toString(fmt));
+                        mMap.addMarker(opts);
+                    }
+                } else {
+                    // error response, no access to resource?
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<Game>> call, Throwable t) {
+                // something went completely south (like no internet connection)
+                Log.d("Error", t.getMessage());
+            }
+        });
     }
 }
