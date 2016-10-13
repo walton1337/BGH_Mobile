@@ -14,4 +14,5 @@ import retrofit2.http.Path;
 public interface BGHService {
     @GET("/games.json")
     Call<List<Game>> getGames();
+
 }

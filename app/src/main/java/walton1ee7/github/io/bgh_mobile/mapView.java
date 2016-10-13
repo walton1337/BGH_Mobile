@@ -3,12 +3,15 @@ package walton1ee7.github.io.bgh_mobile;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 
@@ -61,10 +64,31 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
         // Add marker for each lat/long in JSON!!!
 
+        mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
+            @Override
+            public View getInfoWindow(Marker marker) {
+                Game game = (Game)marker.getTag();
+                DateTimeFormatter fmt = DateTimeFormat.shortDateTime();
+                View infowindow = getLayoutInflater().inflate(R.layout.map_infowindow, null);
+                TextView title = (TextView)infowindow.findViewById(R.id.InfoWindow_Title);
+                title.setText(game.getName());
+                TextView gameText = (TextView)infowindow.findViewById(R.id.Game);
+                gameText.setText(game.getGametype());
+                TextView startText = (TextView)infowindow.findViewById(R.id.Start);
+                startText.setText(new Instant(game.getStartTime()).toString(fmt));
+                TextView endText = (TextView)infowindow.findViewById(R.id.End);
+                endText.setText(new Instant(game.getEndTime()).toString(fmt));
+                return infowindow;
+            }
+
+            @Override
+            public View getInfoContents(Marker marker) {
+                return null;
+            }
+        });
 
 
-
-        // Add a marker in Sydney and move the camera
+        // Move and zoom the camera to Tufts
         mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(42.4075, -71.119)));
         mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         Retrofit retrofit = new Retrofit.Builder()
@@ -83,9 +107,7 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
                     for (Game game: response.body()) {
                         MarkerOptions opts = new MarkerOptions();
                         opts.position(new LatLng(game.getLatitude(), game.getLongitude()));
-                        opts.title(game.getName());
-                        opts.snippet("Start: " + new Instant(game.getStartTime()).toString(fmt));
-                        mMap.addMarker(opts);
+                        mMap.addMarker(opts).setTag(game);
                     }
                 } else {
                     // error response, no access to resource?
