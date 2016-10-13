@@ -10,6 +10,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -19,13 +20,7 @@ import org.joda.time.Instant;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
-import java.io.IOException;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -107,6 +102,53 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
                     for (Game game: response.body()) {
                         MarkerOptions opts = new MarkerOptions();
                         opts.position(new LatLng(game.getLatitude(), game.getLongitude()));
+                        switch (game.getImage()) {
+                            case "ea":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.ea));
+                                break;
+                            case "basketball":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.basketball));
+                                break;
+                            case "boardgame":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.boardgame));
+                                break;
+                            case "cardgame":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.cardgame));
+                                break;
+                            case "catan":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.catan));
+                                break;
+                            case "csgo":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.csgo));
+                                break;
+                            case "dnd":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.dnd));
+                                break;
+                            case "football":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.football));
+                                break;
+                            case "frisbee":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.frisbee));
+                                break;
+                            case "heroesofthestorm":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.heroesofthestorm));
+                                break;
+                            case "smash":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.smash));
+                                break;
+                            case "soccer":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.soccer));
+                                break;
+                            case "sport":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.sport));
+                                break;
+                            case "tennis":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.tennis));
+                                break;
+                            case "videogame":
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.videogame));
+                                break;
+                        }
                         mMap.addMarker(opts).setTag(game);
                     }
                 } else {
