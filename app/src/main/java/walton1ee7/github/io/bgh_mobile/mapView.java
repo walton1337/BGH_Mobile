@@ -104,49 +104,49 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
                         opts.position(new LatLng(game.getLatitude(), game.getLongitude()));
                         switch (game.getImage()) {
                             case "ea":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.ea));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.ea_pin_green));
                                 break;
                             case "basketball":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.basketball));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.basketball_pin_green));
                                 break;
                             case "boardgame":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.boardgame));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.boardgame_pin_green));
                                 break;
                             case "cardgame":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.cardgame));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.cardgame_pin_green));
                                 break;
                             case "catan":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.catan));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.catan_pin_green));
                                 break;
                             case "csgo":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.csgo));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.csgo_pin_green));
                                 break;
                             case "dnd":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.dnd));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.dnd_pin_green));
                                 break;
                             case "football":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.football));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.football_pin_green));
                                 break;
                             case "frisbee":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.frisbee));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.frisbee_pin_green));
                                 break;
                             case "heroesofthestorm":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.heroesofthestorm));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.heroesofthestorm_pin_green));
                                 break;
                             case "smash":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.smash));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.smash_pin_green));
                                 break;
                             case "soccer":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.soccer));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.soccer_pin_green));
                                 break;
                             case "sport":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.sport));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.sport_pin_green));
                                 break;
                             case "tennis":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.tennis));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.tennis_pin_green));
                                 break;
                             case "videogame":
-                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.videogame));
+                                opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.videogame_pin_green));
                                 break;
                         }
                         mMap.addMarker(opts).setTag(game);
