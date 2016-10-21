@@ -2,8 +2,13 @@ package walton1ee7.github.io.bgh_mobile;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -20,6 +25,7 @@ import org.joda.time.Instant;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -31,13 +37,44 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class mapView extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-
+    private ListView mDrawerList;
+    private DrawerLayout mDrawerLayout;
+    private TextView menuLabel;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_map_view);
+
+        menuLabel = (TextView) findViewById(R.id.menu_label);
+        menuLabel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+                mDrawerLayout.openDrawer(GravityCompat.START);
+            }
+        });
+
+        mDrawerList = (ListView) findViewById(R.id.left_drawer);
+
+        List<String> menuChoices = new ArrayList<String>();
+        menuChoices.add("New Event");
+        menuChoices.add("Filter Events");
+        menuChoices.add("Login/Logout");
+
+        // This is the array adapter, it takes the context of the activity as a
+        // first parameter, the type of list view as a second parameter and your
+        // array as a third parameter.
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+                this,
+                android.R.layout.simple_list_item_1,
+                menuChoices );
+        mDrawerList.setAdapter(arrayAdapter);
+
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
