@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -21,6 +22,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 
+import io.fabric.sdk.android.Fabric;
 import org.joda.time.Instant;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
@@ -45,6 +47,7 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
 
 
         setContentView(R.layout.activity_map_view);
@@ -96,28 +99,7 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
         // Add marker for each lat/long in JSON!!!
 
-        mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
-            @Override
-            public View getInfoWindow(Marker marker) {
-                Game game = (Game)marker.getTag();
-                DateTimeFormatter fmt = DateTimeFormat.shortDateTime();
-                View infowindow = getLayoutInflater().inflate(R.layout.map_infowindow, null);
-                TextView title = (TextView)infowindow.findViewById(R.id.InfoWindow_Title);
-                title.setText(game.getName());
-                TextView gameText = (TextView)infowindow.findViewById(R.id.Game);
-                gameText.setText(game.getGametype());
-                TextView startText = (TextView)infowindow.findViewById(R.id.Start);
-                startText.setText(new Instant(game.getStartTime()).toString(fmt));
-                TextView endText = (TextView)infowindow.findViewById(R.id.End);
-                endText.setText(new Instant(game.getEndTime()).toString(fmt));
-                return infowindow;
-            }
-
-            @Override
-            public View getInfoContents(Marker marker) {
-                return null;
-            }
-        });
+        mMap.setInfoWindowAdapter(new MyInfoWindowAdapter());
 
 
         // Move and zoom the camera to Tufts
@@ -199,5 +181,32 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
                 Log.d("Error", t.getMessage());
             }
         });
+    }
+
+    public class MyInfoWindowAdapter implements GoogleMap.InfoWindowAdapter {
+        @Override
+        public View getInfoWindow(Marker marker) {
+            Game game = (Game)marker.getTag();
+            return getInfoWindow(game);
+        }
+
+        public View getInfoWindow (Game game) {
+            DateTimeFormatter fmt = DateTimeFormat.shortDateTime();
+            View infowindow = getLayoutInflater().inflate(R.layout.map_infowindow, null);
+            TextView title = (TextView)infowindow.findViewById(R.id.InfoWindow_Title);
+            title.setText(game.getName());
+            TextView gameText = (TextView)infowindow.findViewById(R.id.Game);
+            gameText.setText(game.getGametype());
+            TextView startText = (TextView)infowindow.findViewById(R.id.Start);
+            startText.setText(new Instant(game.getStartTime()).toString(fmt));
+            TextView endText = (TextView)infowindow.findViewById(R.id.End);
+            endText.setText(new Instant(game.getEndTime()).toString(fmt));
+            return infowindow;
+        }
+
+        @Override
+        public View getInfoContents(Marker marker) {
+            return null;
+        }
     }
 }
