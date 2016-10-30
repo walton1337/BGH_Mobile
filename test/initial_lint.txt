@@ -1,0 +1,101 @@
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2420Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72420Library UP-TO-DATE
+:app:prepareComAndroidSupportMediarouterV72300Library UP-TO-DATE
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportMultidex101Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportCompat2420Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportCoreUi2420Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportCoreUtils2420Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportFragment2420Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportMediaCompat2420Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42420Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportVectorDrawable2420Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServices940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAds940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAdsLite940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalytics940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppindexing940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppinvite940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuth940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuthBase940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBase940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBasement940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCast940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCastFramework940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesClearcut940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesContextmanager940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesDrive940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesFitness940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGames940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGass940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGcm940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIdentity940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIid940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesLocation940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesMaps940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesNearby940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPanorama940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlaces940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlus940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesSafetynet940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanager940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTasks940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesVision940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWallet940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWearable940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalytics940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalyticsImpl940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuth940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthCommon940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthModule940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCommon940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseConfig940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCrash940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabase940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabaseConnection940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseIid940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseMessaging940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorage940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorageCommon940Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:lint
+Ran lint on variant release: 71 issues found
+Ran lint on variant debug: 71 issues found
+Wrote HTML report to file:///Users/waltonlee/Documents/BGH_Mobile/app/build/outputs/lint-results-debug.html
+Wrote XML report to file:///Users/waltonlee/Documents/BGH_Mobile/app/build/outputs/lint-results-debug.xml
+
+BUILD SUCCESSFUL
+
+Total time: 4.623 secs
