@@ -141,7 +141,7 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
 
         return super.onOptionsItemSelected(item);
     }
-    
+
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
