@@ -2,10 +2,14 @@ package walton1ee7.github.io.bgh_mobile;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.app.NotificationCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -36,12 +40,13 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class mapView extends FragmentActivity implements OnMapReadyCallback {
+public class mapView extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
     private ListView mDrawerList;
     private DrawerLayout mDrawerLayout;
-    private TextView menuLabel;
+    private ActionBarDrawerToggle mDrawerToggle;
+    private CharSequence mTitle, mDrawerTitle;
 
 
     @Override
@@ -52,14 +57,32 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
 
         setContentView(R.layout.activity_map_view);
 
-        menuLabel = (TextView) findViewById(R.id.menu_label);
-        menuLabel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-                mDrawerLayout.openDrawer(GravityCompat.START);
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+        mTitle = mDrawerTitle = getString(R.string.title_activity_map_view);
+
+        mDrawerToggle = new ActionBarDrawerToggle(
+                this,                  /* host Activity */
+                mDrawerLayout,         /* DrawerLayout object */
+                R.string.drawer_open,  /* "open drawer" description for accessibility */
+                R.string.drawer_close  /* "close drawer" description for accessibility */
+        ) {
+            /** Called when a drawer has settled in a completely closed state. */
+            public void onDrawerClosed(View view) {
+                super.onDrawerClosed(view);
+                //getActionBar().setTitle(mTitle);
+                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
-        });
+
+            /** Called when a drawer has settled in a completely open state. */
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+                //getActionBar().setTitle(mDrawerTitle);
+                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
+        };
+        mDrawerLayout.addDrawerListener(mDrawerToggle);
+
 
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
 
@@ -84,6 +107,12 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
         mapFragment.getMapAsync(this);
     }
 
+    /* Called whenever we call invalidateOptionsMenu() */
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        // If the nav drawer is open, hide action items related to the content view
+        return super.onPrepareOptionsMenu(menu);
+    }
 
     /**
      * Manipulates the map once available.
@@ -168,6 +197,7 @@ public class mapView extends FragmentActivity implements OnMapReadyCallback {
                                 opts.icon(BitmapDescriptorFactory.fromResource(R.drawable.videogame_pin_green));
                                 break;
                         }
+
                         mMap.addMarker(opts).setTag(game);
                     }
                 } else {
