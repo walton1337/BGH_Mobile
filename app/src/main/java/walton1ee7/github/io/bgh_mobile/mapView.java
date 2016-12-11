@@ -1,7 +1,10 @@
 package walton1ee7.github.io.bgh_mobile;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
@@ -55,6 +58,25 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
     private static int LOGIN_CODE = 1337;
 
 
+    private final List<String> menuChoices = new ArrayList<String>();
+    private ArrayAdapter<String> arrayAdapter;
+
+    private void loggedoutMenu() {
+        menuChoices.clear();
+        menuChoices.add("Login");
+        menuChoices.add("Register");
+        arrayAdapter.notifyDataSetChanged();
+    }
+
+    private void loggedinMenu() {
+        menuChoices.clear();
+        SharedPreferences sharedPref = mapView.this.getPreferences(Context.MODE_PRIVATE);
+        menuChoices.add("New Event");
+        menuChoices.add("Logout");
+        menuChoices.add(sharedPref.getString("Email", ""));
+        arrayAdapter.notifyDataSetChanged();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,30 +115,47 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
         getSupportActionBar().setHomeButtonEnabled(true);
 
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
+        arrayAdapter = new ArrayAdapter<String>(
+                this,
+                android.R.layout.simple_list_item_1,
+                menuChoices );
+        SharedPreferences sharedPref = mapView.this.getPreferences(Context.MODE_PRIVATE);
 
-        final List<String> menuChoices = new ArrayList<String>();
-        menuChoices.add("New Event");
-        menuChoices.add("Filter Events");
-        menuChoices.add("Login/Logout");
+        if(sharedPref.contains("Email") && sharedPref.contains("AuthToken")){
+            loggedinMenu();
+        } else {
+            loggedoutMenu();
+        }
+
+
+
 
         // This is the array adapter, it takes the context of the activity as a
         // first parameter, the type of list view as a second parameter and your
         // array as a third parameter.
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
-                this,
-                android.R.layout.simple_list_item_1,
-                menuChoices );
+
         mDrawerList.setAdapter(arrayAdapter);
         class DrawerItemClickListener implements ListView.OnItemClickListener {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Log.d("BGH", "menuChoice " + menuChoices.get(position));
+                SharedPreferences sharedPref = mapView.this.getPreferences(Context.MODE_PRIVATE);
                 switch (menuChoices.get(position)) {
                     case "New Event":
-                        ;
-                    case "Login/Logout":
+                        break;
+                    case "Login":
                         Intent i = new Intent(mapView.this, LoginActivity.class);
                         startActivityForResult(i, LOGIN_CODE);
+                        break;
+                    case "Logout":
+                        SharedPreferences.Editor editor = sharedPref.edit();
+                        editor.clear();
+                        editor.commit();
+                        loggedoutMenu();
+                        break;
+                    case "Register":
+                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://biggamehunter.herokuapp.com/users/sign_up"));
+                        startActivity(browserIntent);
                     default:
                         ;
                 }
@@ -175,6 +214,12 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
                 String email = data.getStringExtra("Email");
                 Log.d("mapView", "AuthToken: " + authtoken);
                 Log.d("mapView", "Email: " + email);
+                SharedPreferences sharedPref = mapView.this.getPreferences(Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPref.edit();
+                editor.putString("AuthToken", authtoken);
+                editor.putString("Email", email);
+                editor.commit();
+                loggedinMenu();
             }
         }
     }
