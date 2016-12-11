@@ -2,652 +2,760 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_32fa980946ea8c9eba5443f99c4183e6eafa4b5d.jar" />
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.8.0_e991b2a8aded817734e4903e7390dc27f5d90b97\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_0907613a7a8c8ef65e27ba53dc937533b349e3fb.jar" />
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_6dddbf04ebe750eb88e70859909f0cedcab71aa0\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_35226d00322c5da95feba053fd82a2b1eadf4ac4.jar" />
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.8.0_8485833e9028ddeb9a2bb0382a1becb7fb686e73\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_4683d8d9520c3777af4125623bef421536a722a1.jar" />
+        sha1="61a3181dc6ff87551628a798654a31220ae06994">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fa6b1e7d1ea6e860f5878035a5290cac5cbf4fa1\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-9.4.0_0ac5b4ec5e411948eac9a6fbb16c1ca7f3fe94e6.jar" />
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.8.0_a4acc3f989ad7c47d3d742706dcff23022a2493f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.5\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_9ee9fd913048407f75e86e4abc8610fcd4b58085.jar" />
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-2.6.5_e7fb8acd2262ecdca67eefb1029da7363a58d943\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_b5bfecf04e3fbb2d63e7c5bef83065046ac82c06.jar" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_18f4a161a9f24f9a76c10bfca56a4eafe407155e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_ac783a600f5f94fb300840b068cc7df8f12a1063.jar" />
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_fe064c0a879bae323e33b1acbda29dfd06767ccc\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_7591571636a8084d577557543cc6a33d3c38dadd.jar" />
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.8.0_51b63a4303063ab6fa50c92c263823ec046c257e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_1dec74b0b80999e9244bc791b90948a0d220202f.jar" />
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.8.0_0d6bdb183e7e6c2cdcf78b2a32055350c90c27ff\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_c7d37f6257b205e5274499424fc9f39872807073.jar" />
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_d6401af373db1644ae0d80eb19a462dd214fc10e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-9.4.0_6b18918768022c4f257ed43ee345833f0878f695.jar" />
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.8.0_dfb14dc43c59b4a520b93f22b3b2729bbe478253\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-9.4.0_484eec448b06287a4502a5ef568ae8a45155b0f2.jar" />
+        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.8.0_032075a51b5e5624e18f2f8bfa5d6eba1b250182\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_48292db4581b1dfef04b4cdb171c6b5702a50797.jar" />
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_c1613bd2cb69bb0d6d7d47138b5dc0fce49f54d6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_49a2f4e4fcdd0eb8bf6594a42bd91d90514b727a.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_b17b2c67a712a17dd0d3240d1c4da0e3c4c09cf8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_05f0647bb16b144f3ad2c1f29e9783bec955c113.jar" />
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.8.0_6d57b64cb4db108359cd04a57ee5710104b74f98\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.4.0_433437f01a53762b68f6433538095a74edd7130a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-contextmanager-9.4.0_af6e8118b02e674810ad24b6d3ffe060b08f1ab1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_eb8803c195ec259d9a8a302af394f000ddc3e18c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-9.4.0_3f2521d86a214e4798c67e5060ee886544fb20c1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_3697f50ec091c04a565dcd2a368b45f58a2ac6be.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_82e4210f14f0ea783e4f90e7d764d0a88025c874.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_35adbc2d3f9b2bac58b9f02d89837a5f2388eace.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.4.0_b6eb9cbf5f1e9c699291c535ba64055d6917b0cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-9.4.0_e4176d1eb4bd42119440a52001aa8175f8fa2873.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-9.4.0_4fff459b234980ecf4d96d95f2832082b7dc5397.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_01bf708901f9f8c360ab2ef59ba816570dd90303.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_c2088a5897d68a09ccf806866bd438ceb68bb5e5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_1affb7675e62c3f54dad43b9ad0c0cf9eb9b7e76.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_3a4b64fd0eab40ee25fe27fc61239f6997e2d2f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_b082b830d171f444291d4a7fa54ab948c984ad17.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_155368a072ebd7f90c6fec323f983f9359f3fb14.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_fbfcf717b45b33f58a2d044762ac0c68880613fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_67339802e6d5d4154635aa6fbe82b80733355631.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-9.4.0_25b765d226e894a533bc3ca8ea3e51303bfd11c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_7677325be49bf13ed26cc399035b315eeca532c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-framework-9.4.0_81e1e0461ddcd7f5e5f66aa0a01d172aebf734ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_481e351cfcb78bdfba08554180f8098934746cea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_4c32894a7fe646e9cea7042978d22ea5a30641b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/okio-1.8.0_95b6d7023c4077a1b950ca81e71687dfa9584d6e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.4.0_daef3e9b552e7cffae7d51dbef6564bde52ef1ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_910af7154b1efcb7093c1f30b80b53f58f04b10f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_7e700be95ee745be21b79096032b9fbe45354cbd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-9.4.0_724ec8fd8d882633d6fb647252d44b3036fadb64.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-9.4.0_a818377489e32ad317ec4a4eb7ab87a6a7258f3e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_5691f4098c06013fffaa7e28129778f2e371aa0e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_b4dc89a36c73ecabb91719505b43ca4949e4d3bf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_615d31c178b785d318e9dea10c4262e318848479.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.0/8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0/commons-lang3-3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/commons-lang3-3.0_10534ea86603e6592632717569db1762b3b22c36.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_0584cc955c5daed19b66de38f97fc1ce8b41131f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.4.0_e724aa88ecceff3b5be72b4a494a4e573aaa4d63.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-9.4.0_10002a5e31417387ef53a4d52874519405d0e2f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_f9b3893a2322751555b56a84613295252b637585.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_17ab19e697554a8fd7f8c5ddbd31a7ce6dbb9ec7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-9.4.0_b049e6d663672b83f3045766cd06b0b58047016a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.4.0_30ff615657ff67bfd2b9532de7e66f8cc618afdc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/waltonlee/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/gson-2.7_2958f2092a487e2ac0c1768b7fe7b053a523f93d.jar" />
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_3d6c922de7394ca6f487ca267644e49b31851df7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_ac465d2c455823c39b29d32e337cf5775ef04dac.jar" />
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_92f170135649503051c4c519e92987a09dba53bc\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_fe6c477e45540f3de06597a85bcd7784f95dfa94.jar" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0ec8fa96d3452e8dbdced226153d89fd7a608a81\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.2\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_15161845c3d4b13206bce5d6588d4c580b58f339.jar" />
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-beta-1.2.2_dd8aa2da295123ee6a4d3c46ca67a745366b692d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_e96000eea08b9f3b502b9bf2c78e8fb2eafc7639.jar" />
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_2425b8503f9eaaafce4835b66e71794c60f97cf0\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.4.0_d7a456b985fd15555ac05bccfe6f4d364d271546.jar" />
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.8.0_7c53d04d1808630db7c694133dfedd57c6008c4c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-9.4.0_a07149dba9263b9964597db8b0a9bb849bd772d8.jar" />
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_378a68119390b06585d1ff48ef1ad7bdd452d9e8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-9.4.0_659bf170cce0d6f21de99bb853cb87910b843ded.jar" />
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_7f5d061f15df595b01734bd3b13679e5b539ca72\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.4.0_50ee0eda18ecea3431095d8cf68df10e56a203c4.jar" />
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.8.0_1e720514a8cac0d0471bd9b02622ac68f7f6799b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-9.4.0_bc9500162bad7d2b5d848191c4fb283e7af8d01b.jar" />
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_d95d63971e5f992c660a1143e93096e1311d43a4\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-9.4.0_8c8c534df2c1e3c131b0729c0028f4ae5946640a.jar" />
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.8.0_af043cdcc4207b6d3275154090dba4a92533cdeb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.4.0_ae901fb1f9a446103c41a0a2d228d56f1ae1382e.jar" />
+        sha1="00d358528c5a8731a6e19bca910cbb3fd755ee31">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-9.8.0_2bf66a0e012431096455fd5f0d930b24c6a2ca59\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_6e461ec536d8f3d8aae5a9f94960a6453409bf46.jar" />
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.8.0_7aab043fe4cbfefcc190d15b8ee3fb3dc90ebfba\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-9.4.0_30157238667de64e5c3c7f7cb600e7a9b64d0782.jar" />
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.8.0_a60385821d2d99362e206b10da74a52e770c7926\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_937a941d952924e95bd53b433f0cdd7d47224246.jar" />
+        sha1="74ac7cbcf0de4a88e59612dc3a9e3f9e71acb4ca">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.8.0_91f18d30394f42071661056fa84805e4234c9a3b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/waltonlee/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.4/1c295b462f16702ebe720bbb08f62e1ba80da41b/joda-time-2.9.4.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.8.0_01da805e1e34c2fb07b3eb307d5aa1ab0f5c489a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_f3a52b5260c73dae89d1eae12e8d4b3b3f80d75d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_b4a29abbff92859eb73d3cf34b30f8f43cfe16bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_113f285e8999a27f5ff0151cbadd01e014bbb1ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.8.0_f7e749423b2bb4e9c9a0d86388dc40afae82bb0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.4\1c295b462f16702ebe720bbb08f62e1ba80da41b\joda-time-2.9.4.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="1c295b462f16702ebe720bbb08f62e1ba80da41b">
-        <dex dex="/Users/waltonlee/Documents/BGH_Mobile/app/build/intermediates/pre-dexed/debug/joda-time-2.9.4_caf9c06bdf91596b7620d4c82f85760d2d961042.jar" />
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.9.4_3235a30297c1a712ef56b555e86962a7e13062bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.8.0_252efc0da90f07d036f05cb99f2b275bcc6cd885\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.8.0_f87d229c22879a675fc7c8ba80289330e7212810\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_8dcbb7571218b7a32c50d083dbc1f374989d9528\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_50d26c9390b21c5f67f88b9d5cdaefdd17c69d7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_7db94d36779e82e68e02913dafba4f5ceec9b6ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.14_6b9c234dffe093a9945dc31154397bb02108c5fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.fabric.sdk.android-fabric-1.3.14_73f785f1af234a5145c5b8225efacca458eb7e7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e56f31b23ddb067f95f01255295167db7c798612">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.8.0_99396300ccf9baf91e726af4ab0602860a5e230d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5d37d7b4af45671fbdfc274c408bb438211bf3d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_802bb01e091ccdb3062d1503d5f2cd44a5b89257\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.0\8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0\commons-lang3-3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-lang3-3.0_212bcd67e05cb854eb09a479e8d551ee5282521f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.8.0_af7a8f863deea18c7ae04efcbd4bcabe4e5a4ed1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.8.0_e42b0461fd54e0cfd0cdd7f413ef0545c5cedd6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.8.0_feee374ae500c9c362849dc6698d6529cedfe612\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.8.0_8370eec31c32c51cc4f300f287cfc90bc9386589\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_85feaca93792842278ee6e3b0df96748cc330374\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.8.0_95b2436dcff80d93cb004971ab3e1ac6bdf1eb36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_a3a07c3598bb142b25d33d0a47a708cbccf2f67d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_052d236275ce14e7134141b3a33bd0100c58eb13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.8.0_dbacc5574addc5a7393ddb8692fd82f4aae5ac98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.8.0_ac5952d0232d22cb9d01f0882c6b286f97abe46f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-9.8.0_4edc634051e09f5761af47c10472085e6e7c6428\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.8.0_748d667bf913a5aaa9facd34e1bac95c01ba08ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_876a7b395ce0d2eea49ce6872133d76075c5a36c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.8.0_fcd6533dfde1e35e227d45b6ef11dd7d3532439c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_f5e9d80215215b5dca130296eac5b44abe2f2bdd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.8.0_8f0a9942514517e9816a623992e73d51ee8a419a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.10_5a62ec04fd704d01ee97e6c40c0a7ac75c6c0fa1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_2b4f300514ec251c2c3850d9b63f695b7c787744\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_25e849ce0384c3b7557c514ab6511f2d1d969ca2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.8.0_f2e84a55f025288a37a0a0fff691ee03d618fca9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.8.0_857f23ba2ffc4d8dc3aa4de4280659e77323b4e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.8.0_1f58b71d4f07c6e86f2166fe12512d831ba176a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.8.0_f6e224c134725d44621125a8097d81dd66dde185\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_96890001a191742b1d754ccd853041b1db975371\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.8.0_36dae9fb4311d257b3548bdb0f3e1ced62745e5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_f04cec3d5206399ec09bf3deea75fff76b77d703\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.8.0_2047dafc0b8677ff922b5f6eb7f44b457f58e316\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ba05eace53cfc2789aec7433e2995047fe6c72">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_34f0c3725864450eedac8f2b9a3ed7b1afcaaebb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.8.0_d1cfd65e7bb367f8ce56ad5fb75a3a62156622a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.8.0_0ecb8e471a831d034a707a72c9d114f223c6d806\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.8.0_24fe2c034eefbd6c37ae30974660a135ce7f11d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.8.0_6b3b66a2663b974d27edf6852ecbd88742f80fb6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.8.0_2f6b4910845f9649c3c18f8ab4145ad49de5136e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_83d0acf64b898fa77731512ad6c8d9517bfe517d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbb3885c40e431cd2b0dc69c0cab2bf6d5da7b43">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.8.0_adb39598544fa9b253bb669d210933eb0be4934d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="C:\Users\Derek\Documents\GitHub\BGH_Mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.8.0_4b9e6830ea40e6c6cea5e67c565cabd25aec15d1\classes.dex" />
     </item>
 
 </items>

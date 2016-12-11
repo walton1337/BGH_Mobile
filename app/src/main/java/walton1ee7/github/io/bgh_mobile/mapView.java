@@ -1,5 +1,6 @@
 package walton1ee7.github.io.bgh_mobile;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -13,7 +14,9 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -49,6 +52,7 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
     private CharSequence mTitle, mDrawerTitle;
+    private static int LOGIN_CODE = 1337;
 
 
     @Override
@@ -90,7 +94,7 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
 
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
 
-        List<String> menuChoices = new ArrayList<String>();
+        final List<String> menuChoices = new ArrayList<String>();
         menuChoices.add("New Event");
         menuChoices.add("Filter Events");
         menuChoices.add("Login/Logout");
@@ -103,6 +107,25 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
                 android.R.layout.simple_list_item_1,
                 menuChoices );
         mDrawerList.setAdapter(arrayAdapter);
+        class DrawerItemClickListener implements ListView.OnItemClickListener {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Log.d("BGH", "menuChoice " + menuChoices.get(position));
+                switch (menuChoices.get(position)) {
+                    case "New Event":
+                        ;
+                    case "Login/Logout":
+                        Intent i = new Intent(mapView.this, LoginActivity.class);
+                        startActivityForResult(i, LOGIN_CODE);
+                    default:
+                        ;
+                }
+
+
+            }
+        }
+
+        mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -142,6 +165,20 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // Check which request it is that we're responding to
+        if (requestCode == LOGIN_CODE) {
+            // Make sure the request was successful
+            if (resultCode == RESULT_OK) {
+                String authtoken = data.getStringExtra("AuthToken");
+                String email = data.getStringExtra("Email");
+                Log.d("mapView", "AuthToken: " + authtoken);
+                Log.d("mapView", "Email: " + email);
+            }
+        }
+    }
+
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -163,7 +200,7 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(42.4075, -71.119)));
         mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://biggamehunter.herokuapp.com")
+                .baseUrl("https://biggamehunter.herokuapp.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
