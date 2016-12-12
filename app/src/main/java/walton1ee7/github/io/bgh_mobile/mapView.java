@@ -142,6 +142,12 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
                 SharedPreferences sharedPref = mapView.this.getPreferences(Context.MODE_PRIVATE);
                 switch (menuChoices.get(position)) {
                     case "New Event":
+                        LatLng pos = mMap.getCameraPosition().target;
+                        Intent newEventI = new Intent(mapView.this, newEvent.class);
+                        newEventI.putExtra("lat", pos.latitude);
+                        newEventI.putExtra("lon", pos.longitude);
+                        newEventI.putExtra("zoom", mMap.getCameraPosition().zoom);
+                        startActivity(newEventI);
                         break;
                     case "Login":
                         Intent i = new Intent(mapView.this, LoginActivity.class);
@@ -244,6 +250,11 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
         // Move and zoom the camera to Tufts
         mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(42.4075, -71.119)));
         mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
+
+        refreshMarkers();
+    }
+
+    public void refreshMarkers () {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://biggamehunter.herokuapp.com")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -255,8 +266,8 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
             @Override
             public void onResponse(Call<List<Game>> call, Response<List<Game>> response) {
                 if (response.isSuccessful()) {
+                    mMap.clear();
                     // tasks available
-                    DateTimeFormatter fmt = DateTimeFormat.shortDateTime();
                     for (Game game: response.body()) {
                         MarkerOptions opts = new MarkerOptions();
                         opts.position(new LatLng(game.getLatitude(), game.getLongitude()));

@@ -51,7 +51,14 @@
 
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".newEvent"
+            android:label="@string/title_activity_new_event">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="walton1ee7.github.io.bgh_mobile.mapView" />
+        </activity>
     </application>
 
 </manifest>

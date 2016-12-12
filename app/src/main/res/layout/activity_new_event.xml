@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/common_google_signin_btn_text_dark_pressed">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/name"
+            android:hint="Event Title" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/playersGroup">
+
+            <TextView
+                android:text="How many players?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/playerCountLabel"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/playerCounter"
+                android:layout_weight="1"
+                android:hint="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="What type of game?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gametypeLabel" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gametypeSelect"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/startTimeGroup">
+
+            <TextView
+                android:text="Start:"
+                android:layout_height="wrap_content"
+                android:id="@+id/startLabel"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:padding="5dp" />
+
+            <TextView
+                android:text="startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/startDate"
+                android:onClick="showDatePickerDialog"
+                android:padding="5dp" />
+
+            <TextView
+                android:text="startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/startTime"
+                android:layout_weight="1"
+                android:onClick="showTimePicker"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/endTimeGroup">
+
+            <TextView
+                android:text="Finish:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/endLabel"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <TextView
+                android:text="endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/endDate"
+                android:layout_weight="1"
+                android:onClick="showDatePickerDialog"
+                android:padding="5dp" />
+
+            <TextView
+                android:text="endTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/endTime"
+                android:layout_weight="1"
+                android:onClick="showTimePicker"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/locationDescription"
+                android:layout_weight="1"
+                android:hint="Location Description" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        tools:context="walton1ee7.github.io.bgh_mobile.newEvent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.9" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:onClick="submitGame (newEvent)" />
+
+</LinearLayout>
