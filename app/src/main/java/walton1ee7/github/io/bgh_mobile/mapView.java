@@ -114,6 +114,7 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
+
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         arrayAdapter = new ArrayAdapter<String>(
                 this,
@@ -142,12 +143,16 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
                 SharedPreferences sharedPref = mapView.this.getPreferences(Context.MODE_PRIVATE);
                 switch (menuChoices.get(position)) {
                     case "New Event":
-                        LatLng pos = mMap.getCameraPosition().target;
-                        Intent newEventI = new Intent(mapView.this, newEvent.class);
-                        newEventI.putExtra("lat", pos.latitude);
-                        newEventI.putExtra("lon", pos.longitude);
-                        newEventI.putExtra("zoom", mMap.getCameraPosition().zoom);
-                        startActivity(newEventI);
+                        if(sharedPref.contains("Email") && sharedPref.contains("AuthToken")){
+                            LatLng pos = mMap.getCameraPosition().target;
+                            Intent newEventI = new Intent(mapView.this, newEvent.class);
+                            newEventI.putExtra("lat", pos.latitude);
+                            newEventI.putExtra("lon", pos.longitude);
+                            newEventI.putExtra("zoom", mMap.getCameraPosition().zoom);
+                            newEventI.putExtra("email", sharedPref.getString("Email", ""));
+                            newEventI.putExtra("authtoken", sharedPref.getString("AuthToken", ""));
+                            startActivity(newEventI);
+                        }
                         break;
                     case "Login":
                         Intent i = new Intent(mapView.this, LoginActivity.class);
@@ -251,6 +256,12 @@ public class mapView extends AppCompatActivity implements OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(42.4075, -71.119)));
         mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
 
+        refreshMarkers();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
         refreshMarkers();
     }
 

@@ -11,17 +11,20 @@ import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.vision.text.Text;
 
@@ -31,7 +34,14 @@ import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.ISODateTimeFormat;
 
+import java.io.IOException;
 import java.util.Calendar;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class newEvent extends FragmentActivity implements OnMapReadyCallback {
 
@@ -52,6 +62,14 @@ public class newEvent extends FragmentActivity implements OnMapReadyCallback {
     private DateTimeFormatter datetimefmt = ISODateTimeFormat.dateTime();
     public DateTime start = new DateTime();
     public DateTime end = start.plusHours(1);
+    public Marker eventMarker;
+    private String email;
+    private String authToken;
+    private BGHService bghService = new Retrofit.Builder()
+            .baseUrl("https://biggamehunter.herokuapp.com")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build().create(BGHService.class);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +90,54 @@ public class newEvent extends FragmentActivity implements OnMapReadyCallback {
         spinner.setAdapter(adapter);
 
         refreshTimes();
+
+        Button button = (Button) findViewById(R.id.submitButton);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText nameText = (EditText) findViewById(R.id.name);
+                EditText countText = (EditText) findViewById(R.id.playerCounter);
+                Spinner gametypeSpinner = (Spinner) findViewById(R.id.gametypeSelect);
+                EditText descriptionText = (EditText) findViewById(R.id.locationDescription);
+                String startTime = datetimefmt.print(start);
+                String endTime = datetimefmt.print(end);
+
+                NewGame game = new NewGame();
+                game.setName(nameText.getText().toString());
+                game.setNeedCount(countText.getText().toString());
+                game.setGamename(gametypeSpinner.getSelectedItem().toString());
+                game.setGametypeId("0");
+                game.setDescription(descriptionText.getText().toString());
+                game.setStartTime(startTime);
+                game.setEndTime(endTime);
+                game.setLatitude(Double.toString(eventMarker.getPosition().latitude));
+                game.setLongitude(Double.toString(eventMarker.getPosition().longitude));
+
+                NewGameRequest req = new NewGameRequest();
+                req.setGame(game);
+                Call<NewGameResponse> call = bghService.addGame(req, authToken, email);
+                call.enqueue(new Callback<NewGameResponse>() {
+                    @Override
+                    public void onResponse(Call<NewGameResponse> call, Response<NewGameResponse> response) {
+                        if (response.isSuccessful()) {
+                            Toast.makeText(getApplicationContext(), "Your event was succesfully added!", Toast.LENGTH_LONG);
+                            finish();
+                        } else {
+                            Toast.makeText(getApplicationContext(), "There was an error adding your event.", Toast.LENGTH_LONG);
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<NewGameResponse> call, Throwable t) {
+                        Toast.makeText(getApplicationContext(), "There was an error adding your event.", Toast.LENGTH_LONG);
+                    }
+                });
+            }
+        });
     }
+
+
 
     public void refreshTimes() {
         TextView startDate = (TextView) findViewById(R.id.startDate);
@@ -99,20 +164,24 @@ public class newEvent extends FragmentActivity implements OnMapReadyCallback {
     @Override
     public void onMapReady(GoogleMap googleMap) {
         Intent intent = getIntent();
+
+        email = intent.getStringExtra("email");
+        authToken = intent.getStringExtra("authtoken");
+
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+        // Add a marker and move the camera
         LatLng curr = new LatLng(intent.getDoubleExtra("lat", 42.4075), intent.getDoubleExtra("lon", -71.119));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(curr));
         mMap.moveCamera(CameraUpdateFactory.zoomTo(intent.getFloatExtra("zoom", 16)));
-        mMap.addMarker(new MarkerOptions().position(curr));
+        eventMarker = mMap.addMarker(new MarkerOptions().position(curr));
 
         mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
             public void onMapClick(LatLng latLng) {
                 mMap.clear();
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-                mMap.addMarker(new MarkerOptions().position(latLng));
+                eventMarker = mMap.addMarker(new MarkerOptions().position(latLng));
             }
         });
     }
@@ -231,24 +300,5 @@ public class newEvent extends FragmentActivity implements OnMapReadyCallback {
         DialogFragment newFragment = new DatePickerFragment();
         newFragment.setArguments(b);
         newFragment.show(getSupportFragmentManager(), "datePicker");
-    }
-
-    public void submitGame(View v) {
-        EditText nameText = (EditText) findViewById(R.id.name);
-        EditText countText = (EditText) findViewById(R.id.playerCounter);
-        Spinner gametypeSpinner = (Spinner) findViewById(R.id.gametypeSelect);
-        EditText descriptionText = (EditText) findViewById(R.id.locationDescription);
-        String startTime = datetimefmt.print(start);
-        String endTime = datetimefmt.print(end);
-
-
-        NewGame game = new NewGame();
-        game.setName(nameText.getText().toString());
-        game.setNeedCount(countText.getText().toString());
-        game.setGametypeId("0");
-        game.setGamename(gametypeSpinner.getSelectedItem().toString());
-        game.setDescription(descriptionText.getText().toString());
-        game.setStartTime(startTime);
-        game.setEndTime(endTime);
     }
 }

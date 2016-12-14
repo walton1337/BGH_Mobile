@@ -159,7 +159,6 @@ android:background="@color/common_google_signin_btn_text_dark_pressed">
         android:text="Submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/submitButton"
-        android:onClick="submitGame (newEvent)" />
+        android:id="@+id/submitButton" />
 
 </LinearLayout>
